@@ -1,0 +1,133 @@
+body {
+	margin: 0px;
+	text-align: center;
+	 font-size: 1.5em; 
+}
+/* 100%=16px=1em */
+h1 {
+	color: #ff0000;
+	 font-size: 3.125rem;
+	 /* margin: 0 auto;  */
+	margin-top: 50px;
+	/* width : 10%; */
+	font-family: 'Kaushan Script', cursive;
+	
+}
+h2 {
+	font-family: 'Amatic SC', cursive,serif;
+	color: #3cb371;
+	
+
+}
+h3 {
+	font-family: 'Mulish', sans-serif;
+	color:#8a8680;
+}
+hr {
+border: dotted gray;
+width: 5%;
+border-bottom: none;
+}
+
+
+.top-container {
+	background-color:#CDF0EA;
+	padding-top: 150px;
+}
+	
+	
+.middle-container {
+	background-color:#FDF5CA;
+	padding: 100px 0px;
+	
+	
+	
+	
+	
+
+}
+.skill-row {
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+ 
+
+
+.bottom-container {
+	background-color:#FF33E3;
+	padding: 50px 0 20px;
+	
+	
+	
+}
+.bottom-cloud{
+	position: absolute;
+}
+.top-cloud {
+	position: absolute;
+	right: 350px;
+	top: 100px;
+}
+.computer {
+width: 30%;
+float: left;
+margin-right: 40px;
+}
+.pi {
+	width: 30%;
+	float: right;
+	margin-right: 40px;
+}
+/* .write {
+	clear: left;
+}
+.write-bot {
+	clear: right;
+} */
+/* clear is used to move the writing */
+.message {
+	width: 40%;
+	margin: 40px auto 50px;
+}
+.btn {
+	background: #aa34d9;
+	background-image: -webkit-linear-gradient(top, #aa34d9, #782bb8);
+	background-image: -moz-linear-gradient(top, #aa34d9, #782bb8);
+	background-image: -ms-linear-gradient(top, #aa34d9, #782bb8);
+	background-image: -o-linear-gradient(top, #aa34d9, #782bb8);
+	background-image: linear-gradient(to bottom, #aa34d9, #782bb8);
+	-webkit-border-radius: 40;
+	-moz-border-radius: 40;
+	border-radius: 40px;
+	text-shadow: 1px 1px 3px #666666;
+	font-family: Georgia;
+	color: #ffffff;
+	font-size: 30px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+  }
+  
+  .btn:hover {
+	background: #fc593c;
+	background-image: -webkit-linear-gradient(top, #fc593c, #b8d934);
+	background-image: -moz-linear-gradient(top, #fc593c, #b8d934);
+	background-image: -ms-linear-gradient(top, #fc593c, #b8d934);
+	background-image: -o-linear-gradient(top, #fc593c, #b8d934);
+	background-image: linear-gradient(to bottom, #fc593c, #b8d934);
+	text-decoration: none;
+  }
+  a {
+	  color: green;
+	  font-family: 'Mulish', sans-serif;
+	  margin: 10px 20px;
+	  text-decoration: none;
+	  
+  }
+  a:hover {
+	  color: whitesmoke;
+  }
+  .copy {
+	  color: white;
+  }
